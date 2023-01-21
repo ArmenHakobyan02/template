@@ -1,0 +1,140 @@
+.Sponsors_App {
+    width: 100%;
+    height: 650px;
+    // border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF1F4;
+}
+
+.Sponsers_First_div {
+    width: 80%;
+    height: 500px;
+    border: solid 1px #ECF1F4;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Sponsers_top_div {
+    width: 100%;
+    height: auto;
+
+    // border: solid 1px;
+    .Sponser_top_item_div {
+        width: auto;
+        height: auto;
+
+        h6 {
+            color: #8fa0aa;
+        }
+    }
+}
+
+.Sponsers_Main_div {
+    width: 46%;
+    height: auto;
+
+    // border: solid 1px;
+    .Sponsers_Main_item_div {
+        width: auto;
+        height: auto;
+        // border: solid 1px;
+    }
+
+    h4 {
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-size: 40px;
+    }
+
+    hr {
+        display: block;
+        border: none;
+        outline: none;
+        height: 1px;
+        width: 100%;
+    }
+
+    p {
+        margin-bottom: 15px;
+        line-height: 25px;
+        color: #8d9196;
+        font-size: 15px;
+    }
+
+    h6 {
+        margin-bottom: 15px;
+        font-size: 14px;
+
+        a {
+            color: #1078ad;
+        }
+    }
+
+}
+
+.Sponsers_Footer_div {
+    width: 100%;
+    height: auto;
+    // border: solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .Sponsers_Footer_Chilc_div {
+        width: auto;
+        height: auto;
+
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
+    h4 {
+        font-size: 17px !important;
+    }
+
+    h6 {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    h4 {
+        font-size: 15px !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Sponsors_App {
+        height: auto !important;
+        padding: 100px 0;
+
+    }
+
+    .Sponsers_First_div {
+        width: 65% !important;
+        height: auto !important;
+        // border: solid 1px red ;
+        flex-direction: column !important;
+    }
+
+    .Sponsers_Footer_div {
+        height: auto !important;
+        flex-direction: column !important;
+        padding: 0 0 20px 0;
+    }
+
+    h4 {
+        font-size: 15px !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+    }
+}

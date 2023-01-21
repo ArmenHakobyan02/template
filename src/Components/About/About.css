@@ -1,0 +1,357 @@
+.About_App {
+  width: 100%;
+  height: 1250px;
+  background-color: #000b1b;
+  background-image: url("../img/sectionOneFoto.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.About_top_div {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  color: white;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.About_top_div .About_top_item_div {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+}
+.About_top_div .About_top_item_div h6 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: white;
+}
+.About_top_div .About_top_item_div .Section_One_line {
+  width: 20px;
+  height: 2px;
+  background: #4b5b73;
+  display: inline-block;
+}
+.About_top_div .About_top_item_div hr {
+  margin-top: 15px;
+  color: transparent;
+  clear: both;
+  display: block;
+  border: none;
+  outline: none;
+  height: 1px;
+  width: 100%;
+}
+.About_top_div .About_top_item_div h2 {
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: "Rajdhani", Arial, Tahoma, sans-serif;
+}
+.About_top_div .About_top_item_div h2 span {
+  color: #1078ad;
+  padding: 0px 0px 0px 15px;
+}
+
+.About_Main_div {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+  flex-wrap: wrap;
+}
+.About_Main_div .Main_item {
+  width: 28%;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.About_Main_div .Main_item .Main_left_div {
+  width: 30%;
+  height: 150px;
+}
+.About_Main_div .Main_item .Main_left_div .Main_image_div {
+  width: 85%;
+  height: 130px;
+  margin-top: 20px;
+}
+.About_Main_div .Main_item .Main_right_div {
+  width: 65%;
+  height: 150px;
+}
+.About_Main_div .Main_item .Main_right_div .Main_right_item_div {
+  width: 100%;
+  height: 130px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.About_Main_div .Main_item .Main_right_div .Main_right_item_div h6 {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: white;
+}
+.About_Main_div .Main_item .Main_right_div .Main_right_item_div div {
+  width: 17px;
+  height: 2px;
+  background: #4b5b73;
+  display: inline-block;
+}
+.About_Main_div .Main_item .Main_right_div .Main_right_item_div hr {
+  display: block;
+  border: none;
+  outline: none;
+  height: 1px;
+  width: 100%;
+}
+.About_Main_div .Main_item .Main_right_div .Main_right_item_div h4 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+.About_Main_div .Main_item .Main_bottom_div {
+  width: 100%;
+  height: auto;
+}
+.About_Main_div .Main_item .Main_bottom_div .Main_bottom_item {
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+}
+.About_Main_div .Main_item .Main_bottom_div .Main_bottom_item p {
+  margin: 0 0 15px;
+  color: #cbd1de;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.Main_Footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.Main_Footer .Main_Footer_left_div {
+  width: 40%;
+  height: 450px;
+  overflow: hidden;
+  background-image: url("../img/a1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Main_Footer .Main_Footer_right_div {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One {
+  width: 65%;
+  height: 230px;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item {
+  width: 100%;
+  height: auto;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item div {
+  width: 17px;
+  height: 2px;
+  background: #4b5b73;
+  display: inline-block;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item hr {
+  display: block;
+  border: none;
+  outline: none;
+  height: 1px;
+  width: 100%;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin-top: 20px;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item .Fotter_right_btn {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  border: none;
+  border-radius: 5px;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item .Fotter_right_btn a {
+  display: flex;
+  background: linear-gradient(to right, #ad5043 50%, #EB6755 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item .Fotter_right_btn span:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background: rgba(0, 0, 0, 0.05);
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item .Fotter_right_btn span:nth-child(1) svg {
+  font-size: 18px;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item .Fotter_right_btn span:nth-child(2) {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item a:hover {
+  background-position: left bottom;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_Two {
+  width: 30%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  color: #1078ad;
+  font-size: 60px;
+  font-weight: 700;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_Two b {
+  margin-top: 35px;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_Tree {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.Main_Footer .Main_Footer_right_div .Footer_right_Tree p {
+  color: #b8b9bc;
+  margin: 0 0 15px;
+  font: inherit;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
+  .About_Main_div {
+    height: auto !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .Main_right_item_div {
+    padding: 0px 10px;
+  }
+  .Main_right_item_div h4 {
+    font-size: 14px !important;
+  }
+  .Main_image_div {
+    width: 100% !important;
+  }
+  .Main_image_div img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .About_App {
+    height: auto !important;
+  }
+  .About_Main_div {
+    width: 70% !important;
+  }
+  .Main_right_item_div {
+    height: auto !important;
+    margin-top: 0px !important;
+  }
+  .Main_right_item_div h6 {
+    padding: 5px 0px;
+  }
+  .Main_right_item_div h4 {
+    padding: 5px 0px;
+  }
+  .Main_right_div {
+    height: auto !important;
+  }
+  .Main_right_div .Main_right_item_div h4 {
+    font-size: 16px !important;
+  }
+  .Main_left_div {
+    height: auto !important;
+  }
+  .Main_image_div {
+    height: auto !important;
+  }
+  .Main_bottom_div {
+    width: 100% !important;
+  }
+  .Main_bottom_div .Main_bottom_item {
+    height: auto !important;
+    padding: 0 15px 0 0;
+  }
+  .Main_item {
+    width: 95% !important;
+    margin: 0 auto;
+    height: auto !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .Main_Footer {
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    height: auto !important;
+  }
+  .Main_Footer .Main_Footer_left_div {
+    width: 100% !important;
+    height: 450px !important;
+  }
+  .Main_Footer .Main_Footer_right_div {
+    flex-direction: column !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+  .Main_Footer .Main_Footer_right_div .Footer_right_One {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item {
+    width: 95% !important;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .Main_Footer .Main_Footer_right_div .Footer_right_One .Footer_right_One-item h4 {
+    font-size: 14px !important;
+  }
+  .Main_Footer .Footer_right_Two {
+    height: auto !important;
+    width: 95% !important;
+    justify-content: flex-end !important;
+    margin: 0 auto;
+    float: right !important;
+  }
+  .Main_Footer .Footer_right_Tree {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+  .Main_Footer .Footer_right_Tree p {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=About.css.map */

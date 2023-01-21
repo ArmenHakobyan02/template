@@ -1,0 +1,271 @@
+.Speakers_App {
+    width: 100%;
+    height: auto;
+    border: solid 1px white;
+    background: #FFFFFF;
+    background-image: url("../img/round_list3.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    hr {
+        display: block;
+        border: none;
+        outline: none;
+        height: 1px;
+        width: 100%;
+    }
+}
+
+.Speakers_top_div {
+    width: 80%;
+    height: 120px;
+    // border: solid 1px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    h6 {
+        color: #8fa0aa;
+    }
+
+    hr {
+        margin: 0 auto 15px;
+    }
+
+    h2 {
+        font-size: 45px;
+
+        span {
+            color: #1078ad;
+            padding: 0 0 0 10px;
+
+        }
+    }
+}
+
+.Speakers_Main_div {
+    width: 100%;
+    height: auto;
+    // border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+    .Speakers_Main_item_div {
+        width: 80%;
+        height: auto;
+        // border: solid 1px red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .Speakers_Main_item_Child {
+            width: 30%;
+            height: auto;
+            // border: solid 1px blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            .Speakers_Main_wrapper_div {
+                width: 100%;
+                height: 100%;
+                // border: solid 1px red;
+
+                .Speakers_Main_image_wrapper {
+                    width: 100%;
+                    height: 70px;
+                    // border: solid 1px red;
+                }
+
+                div {
+                    margin-bottom: 15px;
+                }
+
+                h4 {
+                    color: #001128;
+                    font-size: 18px;
+                }
+            }
+
+            .Speakers_First_img_div {
+                width: 100%;
+                height: auto;
+                // border: solid 1px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .Speakers_First_description {
+                width: 100%;
+                height: 250px;
+                // border: solid 1px;
+                margin-top: 20px;
+
+                h4 {
+                    margin-bottom: 5px;
+                    margin-top: 15px;
+                    font-size: 18px;
+                }
+
+                h6 {
+                    color: #8fa0aa;
+                    margin-bottom: 10px;
+
+                    span {
+                        color: #1078ad;
+                    }
+                }
+
+                div {
+                    width: 20px;
+                    height: 2px;
+                    background: #dde2e5;
+                    display: inline-block;
+                }
+
+                hr {
+                    margin: 0 auto 15px;
+                }
+
+                p {
+                    margin: 0 0 15px;
+                    color: #8d9196;
+                    line-height: 25px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
+    .Speakers_App{
+        width: auto !important;
+        height: auto !important;
+    }
+    .Speakers_Main_div{
+        width: 85% !important;
+        border: solid 1px red;
+        margin: 0 auto;
+    }
+    .Speakers_top_div{
+        border: solid 1px red;
+        h2{
+            font-size: 35px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .Speakers_App{
+        width: auto !important;
+        height: auto !important;
+        padding: 0 0 20px 0;
+        // border: solid 1px red;
+    }
+    .Speakers_Main_div{
+        width: 85% !important;
+        height: auto !important;
+        margin: 0 auto;
+        // border: solid 1px red;
+    }
+    .Speakers_Main_item_div{
+        height: auto !important;
+        // border: solid 1px blue;
+        width: 90% !important;
+    }
+    .Speakers_Main_item_Child{
+        height: auto !important;
+        // border: solid 1px red;
+        width: 30% !important;
+            .Speakers_Main_wrapper_div{
+                height: auto !important;
+                    h4{
+                        font-size: 16px !important;
+                    }
+            }
+            .Speakers_First_description{
+                height: auto !important;
+                    h4{
+                        font-size: 17px;
+                    }
+                    h6{
+                        font-size: 13px;
+                    }
+            }
+    }
+    .Speakers_top_div{
+        width: 75% !important;
+        // border: solid 1px red;
+        height: auto !important;
+            h2{
+                font-size: 35px;
+            }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Speakers_App{
+        width: auto !important;
+        height: auto !important;
+        padding: 0 0 20px 0;
+    }
+    .Speakers_Main_div{
+        width: 65% !important;
+        height: auto !important;
+        margin: 0 auto;
+        // border: solid 1px red;
+        padding: 0;
+    }
+    .Speakers_Main_item_div{
+        height: auto !important;
+        // border: solid 1px blue;
+        width: 100% !important;
+        
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+    .Speakers_Main_item_Child{
+        height: auto !important;
+        // border: solid 1px red;
+        width: auto !important;
+            .Speakers_Main_wrapper_div{
+                height: auto !important;
+                    h4{
+                        font-size: 14px !important;
+                    }
+            }
+            .Speakers_First_description{
+                height: auto !important;
+                margin: 0 !important;
+                    h4{
+                        font-size: 15px;
+                        margin: 0 !important;
+                    }
+                    h6{
+                        font-size: 13px;
+                    }
+            }
+    }
+    .Speakers_top_div{
+        width: 65% !important;
+        height: auto !important;
+            h6{
+                font-size: 13px !important;
+            }
+            div{
+                margin-top: 10px !important;
+            }
+            h2{
+                font-size: 30px;
+            }
+    }
+}

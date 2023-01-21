@@ -1,0 +1,222 @@
+.Tickets_App {
+  width: 100%;
+  height: 850px;
+  background-image: url("../img/Tickets-Images.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: #000b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tickets_App hr {
+  display: block;
+  border: none;
+  outline: none;
+  height: 1px;
+  width: 100%;
+}
+
+.Tickets_First_div {
+  width: 80%;
+  height: 700px;
+}
+.Tickets_First_div .Tickets_First_top_div {
+  width: 100%;
+  height: 150px;
+}
+.Tickets_First_div .Tickets_First_top_div h6 {
+  color: #8fa0aa;
+}
+.Tickets_First_div .Tickets_First_top_div h2 {
+  color: #fff;
+  font-size: 45px;
+  margin-top: 20px;
+}
+.Tickets_First_div .Tickets_First_top_div h2 span {
+  color: #1078ad;
+  padding: 0 0 0 10px;
+}
+.Tickets_First_div .Tickets_center_div {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div {
+  width: 32%;
+  height: 500px;
+  border-right: solid 1px #132a4c;
+  padding: 30px 15px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div .Tickets_center_images_div {
+  width: 100%;
+  height: auto;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div hr {
+  margin: 0 auto 30px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div h3 span {
+  color: #1078ad;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div h4 {
+  margin-bottom: 15px;
+  color: #1078ad;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div ul {
+  color: #fff;
+  margin: 0 0 15px 30px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div ul li {
+  list-style: disc outside;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div button {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  border: none;
+  border-radius: 5px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div button a {
+  display: flex;
+  background: linear-gradient(to right, #ad5043 50%, #EB6755 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div button span:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div button span:nth-child(1) svg {
+  font-size: 18px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div button span:nth-child(2) {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div button a:hover {
+  background-position: left bottom;
+}
+.Tickets_First_div .Tickets_center_div .Tickets_center_item_div:nth-child(3) {
+  border-right: none;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
+  .Tickets_First_div {
+    height: auto !important;
+  }
+  h2 {
+    font-size: 43px;
+  }
+  h4 {
+    font-size: 17px !important;
+  }
+  h6 {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .Tickets_First_div {
+    height: auto !important;
+  }
+  .Tickets_First_div .Tickets_First_top_div {
+    height: auto !important;
+  }
+  .Tickets_First_div .Tickets_First_top_div h2 {
+    font-size: 35px;
+  }
+  .Tickets_First_div .Tickets_center_div {
+    height: auto !important;
+  }
+  .Tickets_First_div .Tickets_center_div .Tickets_center_item_div {
+    height: 550px !important;
+  }
+  .Tickets_First_div .Tickets_center_div .Tickets_center_item_div ul {
+    color: #fff;
+    margin: 0 0 15px 30px;
+  }
+  .Tickets_First_div .Tickets_center_div .Tickets_center_item_div ul li {
+    list-style: disc outside;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 15px !important;
+  }
+  h6 {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Tickets_App {
+    height: auto !important;
+    padding: 100px 0;
+  }
+  .Tickets_First_div {
+    height: auto !important;
+    width: 65% !important;
+  }
+  .Tickets_First_div .Tickets_First_top_div {
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .Tickets_First_div .Tickets_First_top_div h2 {
+    font-size: 35px;
+  }
+  .Tickets_First_div .Tickets_center_div {
+    width: auto !important;
+    height: auto !important;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    margin: 0 auto;
+  }
+  .Tickets_First_div .Tickets_center_div .Tickets_center_item_div {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .Tickets_First_div .Tickets_center_div .Tickets_center_item_div ul {
+    color: #fff;
+    margin: 0 0 15px 30px;
+  }
+  .Tickets_First_div .Tickets_center_div .Tickets_center_item_div ul li {
+    list-style: disc outside;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 12px !important;
+  }
+  h6 {
+    font-size: 12px !important;
+  }
+}/*# sourceMappingURL=TICKETS.css.map */
